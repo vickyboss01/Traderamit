@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐫𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 𝐀𝐦𝐢𝐭...</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --red: #e30606;
+      --red-dark: #b80000;
+      --text: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: url("https://i.supaimg.com/22bb2a92-6018-4040-836c-ba5e78389600.jpg") center center / cover no-repeat fixed;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* 🔲 Background overlay */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 0;
+    }
+
+    /* 💠 Profile Card */
+    .profile-card {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 22px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      padding: 48px 22px 30px;
+    }
+
+    /* 🖼 Logo */
+    .profile-image {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      margin: -70px auto 18px;
+      background: url("https://i.supaimg.com/26c29e0e-2073-4d0e-a438-4af101f713a9.webp") center/cover no-repeat;
+      border: 5px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+
+    /* 📛 Channel Name (no glow) */
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.6rem;
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+      opacity: 0.9;
+    }
+
+    /* 📋 Details */
+    .details {
+      text-align: left;
+      margin: 10px auto 20px;
+      max-width: 360px;
+      font-size: 0.92rem;
+    }
+
+    .details ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .details li {
+      margin: 6px 0;
+    }
+
+    /* 🔘 CTA Button (no glow, clean flat) */
+    .join-btn {
+      display: inline-block;
+      width: 88%;
+      max-width: 320px;
+      padding: 14px 0;
+      background-color: var(--red);
+      color: #fff;
+      font-weight: 700;
+      border: none;
+      border-radius: 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      font-size: 1.05rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .join-btn:hover {
+      transform: translateY(-3px);
+      background-color: var(--red-dark);
+    }
+
+    /* 📞 Contact Info */
+    .contact-info {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-top: 16px;
+      opacity: 0.95;
+    }
+
+    /* 📱 Responsive */
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 1.4rem;
+      }
+      .join-btn {
+        font-size: 1rem;
+        width: 94%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="profile-card">
+    <div class="profile-image"></div>
+    <h2>𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐫𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 𝐀𝐦𝐢𝐭...</h2>
+    <p>🔥 Learn & Earn from Smart Trading — Daily Nifty/BankNifty Insights</p>
+
+    <div class="details">
+      <ul>
+        <li>💹 Fast Intraday Levels और Option Strategies</li>
+        <li>🎯 Beginners के लिए Free Guidance</li>
+        <li>💎 Premium Members के लिए Exclusive Calls</li>
+        <li>📊 94%+ Accuracy & Transparent Results</li>
+        <li>👨‍💻 Experienced Traders की Team</li>
+      </ul>
+    </div>
+
+    <a href="https://t.me/+9jGHB3QldFBlOTRl" class="join-btn" target="_blank" rel="noopener">
+      Join Telegram Channel
+    </a>
+
+    <div class="contact-info">
+      <strong>Paid Membership उपलब्ध:</strong><br />
+      💰 UPI, Paytm, GooglePay पर Payment स्वीकार्य<br /><br />
+      <strong>संपर्क करें:</strong> 9876543210<br />
+      ✉️ Email: amittrade@email.com
+    </div>
+  </div>
+</body>
+</html>
